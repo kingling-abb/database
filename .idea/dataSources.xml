@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="MDM PROD" group="MDM" uuid="c9d9fc99-f432-4885-a90c-f066f49b919f">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mdm-sqlserver-prod.database.chinacloudapi.cn\mdm-sql-prod:1433</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="MDM BETA" group="MDM" uuid="2783c59a-df9b-4b01-811a-aa425b0c7ebc">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mdm-sqlserver-beta.database.chinacloudapi.cn:1433</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="MDM DEV" group="MDM" uuid="af396ccb-873c-451b-a78f-a669ae34f69c">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mdm-sqlserver-dev.database.chinacloudapi.cn:1433</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="MDM PROD PROD" check-outdated="false" group="MDM" uuid="5a25ea5c-5e9c-4531-b4e6-cd80586d7473">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mdm-sqlserver-prod.database.chinacloudapi.cn:1433;database=mdm-sql-prod</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="KingLing" group="KingLing" uuid="f1768eee-9fb3-4705-8875-6421eee14694">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://3.kingling.net:5432/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="MDM Mongo PROD" group="MDM" uuid="09a58993-bdaf-4af5-a557-7c9723f30a42">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://mdm-cosmos-mongo-prod.mongo.cosmos.azure.cn:10255</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="ssl" value="true" />
+        <property name="uuidRepresentation" value="csharpLegacy" />
+        <property name="retryWrites" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="MDM Mongo DEV" group="MDM" uuid="25d66d79-0d17-4569-8f39-d4ca48c227a0">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://mdm-cosmos-mongo-dev.mongo.cosmos.azure.cn:10255</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="ssl" value="true" />
+        <property name="uuidRepresentation" value="csharpLegacy" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="MDM Mongo BETA" group="MDM" uuid="a99c5c3e-f66d-4af1-abc4-9d90d8779c03">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://mdm-cusmos-mongo-beta.mongo.cosmos.azure.cn:10255</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="ssl" value="true" />
+        <property name="uuidRepresentation" value="csharpLegacy" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="MDM PROD BACK" group="MDM" uuid="e09cee4c-eaf5-45b5-babf-9540abf1d367">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mdm-sqlserver-prod-back20230925.database.chinacloudapi.cn:1433;</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="CCS DEV" group="CCS" uuid="90d592ba-ca97-4677-a935-4b6b61369a48">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://ccs-sql-dev.database.chinacloudapi.cn:1433;database=ccs-sqldb-main-dev</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="WorkFlow DEV" group="WorkFlow" uuid="5d6e97fd-c8f9-4e23-ac0b-8632b1bca097">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://workflow-sql-dev.database.chinacloudapi.cn:1433;database=workflow-sql-dev</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="TimeSheet PROD" group="TimeSheet" uuid="25c09c3d-a06b-43f8-afd4-d134e61bcd06">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://timesheet-sqlserver-cnn3-prod.database.chinacloudapi.cn:1433</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="CCS BETA" group="CCS" uuid="ddce1c23-85f5-4176-aa9a-ae31e2de6eef">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://ccs-sql-beta.database.chinacloudapi.cn:1433</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="WorkFlow PROD" group="WorkFlow" uuid="ebc2a776-5d30-47e0-a19b-fc1c8a0a7d71">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://wf-sql-prod.database.chinacloudapi.cn:1433;database=wf-sql-prod</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="TimeSheet DEV2" group="TimeSheet" uuid="34baf878-9000-46c2-9b88-b256cac45c80">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://motion-is-timesheet.database.chinacloudapi.cn:1433;database=motion-is-timesheet-sql-beta</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="bitnami_keycloak@idp-pgsql-beta.postgres.database.chinacloudapi.cn" group="IDP" uuid="90c5c315-d0d3-4af8-a022-d70e8975559a">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://idp-pgsql-beta.postgres.database.chinacloudapi.cn:5432/bitnami_keycloak</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="MDM CUSTOMER PROD" group="MDM" uuid="5f2080a4-f8a1-4961-8ba7-7cb4be40f6b2">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://cusm-sqlserver-prod.database.chinacloudapi.cn\cusm-sqldb-prod:1433</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="CCS PROD" group="CCS" uuid="8f740e9c-5b21-48db-bb62-3e8bf454b3e8">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://ccs-sql-prod.database.chinacloudapi.cn:1433;database=ccs-sqldb-prod</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@cluster0.qsjj6h2.mongodb.net" uuid="28b16b20-c031-4eeb-a420-5b39e0ba7e33">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb+srv://cluster0.qsjj6h2.mongodb.net/?retryWrites=true&amp;w=majority&amp;appName=Cluster0</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Microsoft SQL Server LocalDB" uuid="23172b75-3129-43e2-b790-798257b514dd">
+      <driver-ref>sqlserver.localdb.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://./</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="LOCAL_DB_INSTANCE" value="MSSQLLocalDB" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Dirs DEV" group="DIRS" uuid="050004be-f94a-4a53-84ed-22240f914d63">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://cniabdirs-sqlserver-cnn3-dev.database.chinacloudapi.cn:1433;</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="SNCode Dev" group="DIRS" uuid="a5652d80-6259-4cc2-9530-683f6a24e13d">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://cniabdirs-sqlserver-cnn3-dev.database.chinacloudapi.cn:1433;database=cniabdirs-sqldatabaseforsn-cnn3-dev</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Dirs Beta" group="DIRS" uuid="0147a301-a592-448a-b249-f0f2ce7279a9">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://drdirs-sqlserver-cnn3-beta.database.chinacloudapi.cn:1433</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="SNCode Beta" group="DIRS" uuid="2abef324-afe7-4d29-bc4a-37fe24fceb8d">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://drdirs-sqlserver-cnn3-beta.database.chinacloudapi.cn:1433;database=drdirs-snsqldb-cnn3-beta</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Mongo-King" uuid="28883479-efcf-48a3-b8bb-0502b0e0f2c5">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://3.kingling.net:27017</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="uuidRepresentation" value="csharpLegacy" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
